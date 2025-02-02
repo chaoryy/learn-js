@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        'use strict'
+
+        function pow(x ,n) {
+            return x**n
+        }
+
+        let x = prompt("Введите x:", '');
+        let n = prompt("Введите n:", '');
+
+        if(n >= 1 && n % 1 == 0) {
+            alert(pow(x, n));
+        }
+        else {
+            alert("Неправильный ввод.")
+        }
+    </script>
+</body>
+</html>
